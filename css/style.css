@@ -277,6 +277,84 @@ body {
 }
 
 
+/* MANGE */
+.project {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.project__container {
+  display: flex;
+  align-items: center;
+}
+
+.project__img {
+  display: block;
+  width: 540px;
+  height: 500px;
+}
+
+.project__btn {
+  min-width: 175px;
+}
+
+/*  MANGE-WRAPPER */
+.project__wrapper {
+  width: 350px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 125px;
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.project__title {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 28px;
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.35px;
+  text-align: left;
+}
+
+.project__text {
+  margin: 0;
+  margin-bottom: 28px;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+.project__btn {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+
+/* BOOKMARK */
+.project--bookmark {
+  padding-top: 40px;
+}
+
+.project__wrapper--bookmark {
+  width: 350px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  margin-right: 125px;
+  border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+
+/* FYLO */
+.project--fylo {
+  padding-bottom: 75px;
+}
+
+
 /* CTA */
 .cta {
   padding-top: 75px;
