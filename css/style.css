@@ -53,6 +53,7 @@ body {
   padding: 17px 35px;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  text-transform: uppercase;
   transition: color 0.4s ease, background-color 0.4s ease;
 }
 
@@ -122,6 +123,8 @@ body {
   line-height: 14px;
   letter-spacing: 2px;
   text-decoration: none;
+  color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sitenav__link:hover {
@@ -153,7 +156,7 @@ body {
 
 .hero__bg-img {
   display: block;
-  width: 1110px;
+  min-width: 1110px;
   height: 600px;
 }
 
@@ -171,8 +174,8 @@ body {
 .hero__title {
   margin: 0;
   margin-bottom: 53px;
-  font-family: var(--font-Ibarra);
-  font-size: 46px;
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
+  font-size: 50px;
   font-weight: 700;
   line-height: 50px;
   letter-spacing: -0.44px;
@@ -232,6 +235,7 @@ body {
   display: block;
   width: 540px;
   height: 600px;
+  object-fit: cover;
 }
 
 .aboutme__info-wrapper {
@@ -243,10 +247,10 @@ body {
 
 .aboutme__title {
   display: inline-block;
-  padding-top: 46px;
+  padding-top: 50px;
   margin: 0;
   margin-bottom: 28px;
-  font-family: var(--font-Ibarra);
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
@@ -256,7 +260,7 @@ body {
 
 .aboutme__info {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
   font-size: 16px;
   line-height: 30px;
   color: var(--primary-color);
@@ -264,6 +268,7 @@ body {
 
 .aboutme__btn {
   min-width: 202px;
+  padding: 16px 36px 16px 28px;
   margin-bottom: 46px;
   font-size: 12px;
   line-height: 14px;
@@ -275,7 +280,7 @@ body {
 /* CTA */
 .cta {
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 150px;
 }
 
 .cta__container {
@@ -291,7 +296,7 @@ body {
 .cta__title {
   display: inline-block;
   margin: 0;
-  font-family: var(--font-Ibarra);
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 42px;
@@ -332,7 +337,7 @@ body {
 .footer__logo-link {
   display: inline-block;
   flex-shrink: 0;
-  margin-right: 42px;
+  margin-right: 46px;
   transition: opacity 0.4s ease;
 }
 
@@ -369,6 +374,7 @@ body {
   letter-spacing: 2px;
   color: var(--white-color);
   text-decoration: none;
+  text-transform: uppercase;
   transition: color 0.4s ease;
 }
 
@@ -395,4 +401,8 @@ body {
 .footer__social-link {
   display: flex;
   color: var(--white-color);
+}
+
+.footer__social-link:hover {
+  transform: scale(1.1);
 }
