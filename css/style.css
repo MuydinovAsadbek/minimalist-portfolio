@@ -4,6 +4,7 @@
   --white-color: #fff;
   --primary-color: #33323D;
   --text-color: rgba(255, 255, 255, 1);
+  --hr-color:rgba(51, 50, 61, 0.15);
   --dark:#203A4C;
   --body-color: #fafafa;
   --hover-color: #5FB4A2;
@@ -240,8 +241,8 @@ body {
 
 .aboutme__info-wrapper {
   width: 350px;
-  border-top: 1px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  border-top: 1px solid var(--hr-color);
+  border-bottom: 1px solid var(--hr-color);
   margin-left: 125px;
 }
 
@@ -304,8 +305,8 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: 125px;
-  border-top: 1px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  border-top: 1px solid var(--hr-color);
+  border-bottom: 1px solid var(--hr-color);
 }
 
 .project__title {
@@ -344,8 +345,8 @@ body {
   padding-top: 85px;
   padding-bottom: 85px;
   margin-right: 125px;
-  border-top: 1px solid rgba(51, 50, 61, 0.15);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  border-top: 1px solid var(--hr-color);
+  border-bottom: 1px solid var(--hr-color);
 }
 
 
@@ -354,6 +355,70 @@ body {
   padding-bottom: 75px;
 }
 
+
+/* PAGE-CONTACT ME */
+.contact {
+  padding-top: 40px;
+}
+
+.contact__block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 1px solid var(--hr-color);
+  border-bottom: 1px solid var(--hr-color);
+}
+
+.contact__title {
+  display: inline-block;
+  margin: 0;
+  margin-right: 25px;
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.35px;
+  color: var(--primary-color);
+}
+
+.contact__wrapper {
+  width: 635px;
+}
+
+.contact__text {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+.contact__social-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact__social-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.contact__social-link {
+  display: flex;
+  color: var(--primary-color);
+}
+
+.contact__social-link:hover {
+  transform: scale(1.1);
+}
+
+.contact__social-link:active {
+  opacity: 0.6;
+}
 
 /* CTA */
 .cta {
@@ -388,7 +453,7 @@ body {
   height: 1px;
   margin-left: 15px;
   margin-right: 15px;
-  background-color: rgba(51, 50, 61, 0.15);
+  background-color: var(--hr-color);
   border: none;
 }
 
