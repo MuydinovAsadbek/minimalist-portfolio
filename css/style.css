@@ -445,14 +445,9 @@ body {
   color: var(--primary-color);
 }
 
-.contact__form-wrapper {
-
-}
-
 .contact__form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
 }
 
 .contact__input-title {
@@ -464,10 +459,11 @@ body {
 }
 
 .contact__input {
-  width: 100%px;
+  width: 100%;
   padding-top: 9px;
   padding-bottom: 9px;
   padding-left: 16px;
+  margin-bottom: 24px;
   font-size: 13px;
   line-height: 30px;
   color: rgba(10, 9, 12, 0.4);
