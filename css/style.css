@@ -464,18 +464,15 @@ body {
 }
 
 .contact__input {
-  width: 635px;
+  width: 100%px;
   padding-top: 9px;
   padding-bottom: 9px;
   padding-left: 16px;
-  background-color: #E6E6E7;
-  border: none;
-}
-
-.contact__input::placeholder {
   font-size: 13px;
   line-height: 30px;
   color: rgba(10, 9, 12, 0.4);
+  background-color: #E6E6E7;
+  border: none;
 }
 
 .contact__input--textarea {
