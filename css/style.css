@@ -358,11 +358,12 @@ body {
 
 
 /* PAGE-CONTACT ME */
-.contact {
+.touch {
   padding-top: 40px;
+  padding-bottom: 48px;
 }
 
-.contact__block {
+.touch__block {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -372,7 +373,7 @@ body {
   border-bottom: 1px solid var(--hr-color);
 }
 
-.contact__title {
+.touch__title {
   display: inline-block;
   margin: 0;
   margin-right: 25px;
@@ -384,11 +385,11 @@ body {
   color: var(--primary-color);
 }
 
-.contact__wrapper {
+.touch__wrapper {
   width: 635px;
 }
 
-.contact__text {
+.touch__text {
   margin: 0;
   margin-bottom: 24px;
   font-size: 16px;
@@ -396,7 +397,7 @@ body {
   color: var(--primary-color);
 }
 
-.contact__social-list {
+.touch__social-list {
   display: flex;
   align-items: center;
   padding: 0;
@@ -404,22 +405,104 @@ body {
   list-style: none;
 }
 
-.contact__social-item:not(:last-child) {
+.touch__social-item:not(:last-child) {
   margin-right: 15px;
 }
 
-.contact__social-link {
+.touch__social-link {
   display: flex;
   color: var(--primary-color);
 }
 
-.contact__social-link:hover {
+.touch__social-link:hover {
   transform: scale(1.1);
 }
 
-.contact__social-link:active {
+.touch__social-link:active {
   opacity: 0.6;
 }
+
+
+/* SECTION-CONTACT */
+.contact {
+  padding-bottom: 109px;
+}
+.contact__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact__title {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.contact__form-wrapper {
+
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.contact__input-title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+  color: rgba(51, 50, 61, 0.8);
+}
+
+.contact__input {
+  width: 635px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  background-color: #E6E6E7;
+  border: none;
+}
+
+.contact__input::placeholder {
+  font-size: 13px;
+  line-height: 30px;
+  color: rgba(10, 9, 12, 0.4);
+}
+
+.contact__input--textarea {
+  width: 635px;
+  resize: vertical;
+  padding-bottom: 57px;
+}
+
+.contact__btn {
+  min-width: 200px;
+  background-color: var(--dark);
+  padding: 17px 24px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--white-color);
+  border: 1px solid transparent;
+}
+
+.contact__btn:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid var(--dark);
+}
+
+
 
 /* CTA */
 .cta {
