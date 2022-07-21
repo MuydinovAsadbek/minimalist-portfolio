@@ -96,17 +96,17 @@
           <form class="contact__form" action="https://echo.htmlacademy.ru">
             <div class="contact__input-wrapper">
             <label class="contact__input-title" for="name">Name</label>
-            <input class="contact__input" type="text" name="name" placeholder="Jane Appleseed" aria-label="Jane Appleseed" required>
+            <input class="contact__input" type="text" name="name" id="name" placeholder="Jane Appleseed" aria-label="Jane Appleseed" required>
             </div>
 
             <div class="contact__input-wrapper">
               <label class="contact__input-title" for="email">Email</label>
-            <input class="contact__input contact__input--email" type="email" name="email" placeholder="email@example.com"              aria-label="Jane Appleseed" required>
+            <input class="contact__input contact__input--email" type="email" name="email" id="email" placeholder="email@example.com" aria-label="Jane Appleseed" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
             </div>
 
             <div class="contact__input-wrapper">
               <label class="contact__input-title" for="message">Message</label>
-            <textarea class="contact__input contact__input--textarea" name="message" placeholder="How can I help?" cols="96"  ro></textarea>
+            <textarea class="contact__input--textarea" name="message" id="message" placeholder="How can I help?" cols="96"></textarea>
             </div>
             <button class="contact__btn" type="submit">Send Message</button>
           </form>

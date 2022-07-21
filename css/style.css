@@ -474,9 +474,17 @@ body {
   border: none;
 }
 
-.contact__input--textarea {
+textarea {
+  width: 100%;
+  max-width: 635px;
+  min-height: 96px;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 9px 16px;
+  margin-bottom: 24px;
+  background-color: rgba(51, 50, 61, 0.1);
+  border: 1px solid transparent;
   resize: vertical;
-  padding-bottom: 57px;
 }
 
 .contact__btn {
