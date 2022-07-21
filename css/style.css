@@ -158,7 +158,7 @@ body {
 
 .hero__bg-img {
   display: block;
-  min-width: 1110px;
+  width: 1110px;
   height: 600px;
 }
 
@@ -167,7 +167,8 @@ body {
   flex-direction: column;
   position: absolute;
   bottom: -1px;
-  width: 445px;
+  width: 100%;
+  max-width: 445px;
   padding-top: 56px;
   padding-right: 56px;
   background-color: var(--body-color);
@@ -241,14 +242,14 @@ body {
 }
 
 .aboutme__info-wrapper {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   border-top: 1px solid var(--hr-color);
   border-bottom: 1px solid var(--hr-color);
   margin-left: 125px;
 }
 
 .aboutme__title {
-  display: inline-block;
   padding-top: 50px;
   margin: 0;
   margin-bottom: 28px;
@@ -302,7 +303,8 @@ body {
 
 /*  MANGE-WRAPPER */
 .project__wrapper {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: 125px;
@@ -311,7 +313,6 @@ body {
 }
 
 .project__title {
-  display: inline-block;
   margin: 0;
   margin-bottom: 28px;
   font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
@@ -342,7 +343,8 @@ body {
 }
 
 .project__wrapper--bookmark {
-  width: 350px;
+  width: 1000%;
+  max-width: 350px;
   padding-top: 85px;
   padding-bottom: 85px;
   margin-right: 125px;
@@ -374,7 +376,6 @@ body {
 }
 
 .touch__title {
-  display: inline-block;
   margin: 0;
   margin-right: 25px;
   font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
@@ -386,7 +387,8 @@ body {
 }
 
 .touch__wrapper {
-  width: 635px;
+  width: 100%;
+  max-width: 635px;
 }
 
 .touch__text {
@@ -427,6 +429,7 @@ body {
 .contact {
   padding-bottom: 109px;
 }
+
 .contact__container {
   display: flex;
   align-items: flex-start;
@@ -434,7 +437,6 @@ body {
 }
 
 .contact__title {
-  display: inline-block;
   margin: 0;
   font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
   font-size: 40px;
@@ -445,7 +447,7 @@ body {
   color: var(--primary-color);
 }
 
-.contact__form {
+.contact__input-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -460,6 +462,7 @@ body {
 
 .contact__input {
   width: 100%;
+  max-width: 635px;
   padding-top: 9px;
   padding-bottom: 9px;
   padding-left: 16px;
@@ -472,7 +475,6 @@ body {
 }
 
 .contact__input--textarea {
-  width: 635px;
   resize: vertical;
   padding-bottom: 57px;
 }
@@ -490,11 +492,12 @@ body {
 }
 
 .contact__btn:hover {
-  background-color: var(--white-color);
-  color: var(--primary-color);
-  border: 1px solid var(--dark);
+  opacity: 0.8;
 }
 
+.contact__btn:active {
+  opacity: 0.6;
+}
 
 
 /* CTA */
@@ -510,11 +513,11 @@ body {
 }
 
 .cta__title-wrapper {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
 }
 
 .cta__title {
-  display: inline-block;
   margin: 0;
   font-family: 'Ibarra Real Nova', 'Arial', sans-serif;
   font-size: 40px;

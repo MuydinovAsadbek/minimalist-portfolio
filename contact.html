@@ -93,16 +93,23 @@
 
         <!-- FORMA -->
         <div class="contact__form-wrapper">
-          <form class="contact__form" action="#">
-            <label class="contact__input-title" for="#">Name</label>
-            <input class="contact__input" type="text" placeholder="Jane Appleseed" aria-label="Jane Appleseed" required>
-            <label class="contact__input-title" for="email">Email</label>
-            <input class="contact__input contact__input--email" type="email" name="email" placeholder="Jane Appleseed"
-              aria-label="Jane Appleseed" required>
-            <label class="contact__input-title" for="message">Message</label>
+          <form class="contact__form" action="https://echo.htmlacademy.ru">
+            <div class="contact__input-wrapper">
+            <label class="contact__input-title" for="name">Name</label>
+            <input class="contact__input" type="text" name="name" placeholder="Jane Appleseed" aria-label="Jane Appleseed" required>
+            </div>
+
+            <div class="contact__input-wrapper">
+              <label class="contact__input-title" for="email">Email</label>
+            <input class="contact__input contact__input--email" type="email" name="email" placeholder="email@example.com"              aria-label="Jane Appleseed" required>
+            </div>
+
+            <div class="contact__input-wrapper">
+              <label class="contact__input-title" for="message">Message</label>
             <textarea class="contact__input contact__input--textarea" name="message" placeholder="How can I help?" cols="96"  ro></textarea>
+            </div>
+            <button class="contact__btn" type="submit">Send Message</button>
           </form>
-          <a href="#" class="contact__btn button">Send Message</a>
         </div>
       </div>
     </section>
